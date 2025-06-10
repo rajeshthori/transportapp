@@ -1,0 +1,62 @@
+name: transportapp
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  country_picker: ^2.0.26
+  permission_handler: ^11.0.0
+  intl: ^0.19.0
+  get: ^4.6.6
+  fluttertoast: ^8.2.8
+  sleek_circular_slider: ^2.0.1
+  background_app_bar: ^2.1.0
+  shared_preferences: ^2.3.2
+  path_provider: ^2.0.14
+  path: ^1.8.3
+  flutter_image_compress: ^2.1.1
+  connectivity_plus: ^6.1.1
+  collection: ^1.18.0
+  flutter_switch: ^0.3.2
+  translator: ^0.1.7
+  flutter_launcher_icons: ^0.14.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/home_image.png
+    - assets/images/current_location.png
+    - assets/images/location_icon.png
+    - assets/images/km_icon.png
+    - assets/images/home_icon.png
+    - assets/images/active_icon.png
+    - assets/images/ended_icon.png
+    - assets/images/chat_icon.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 400
+
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter.ttf
