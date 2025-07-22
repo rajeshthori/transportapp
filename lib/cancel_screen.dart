@@ -51,7 +51,7 @@ class _CancelScreenState extends State<CancelScreen> {
       child: Scaffold(
         body:  Container(
           decoration: const BoxDecoration(
-            color: Color(0xFFFFFFFF), // light yellow
+            color: Color(0xFFFFFFFF),
             borderRadius: BorderRadius.only(
               topLeft: Radius.circular(20),
               topRight: Radius.circular(20),
@@ -65,6 +65,7 @@ class _CancelScreenState extends State<CancelScreen> {
             padding: const EdgeInsets.only(top: 16),
             child: Column(
               children: [
+                SizedBox(height: 15,),
                 Padding(
                   padding: EdgeInsets.all(25),
                   child: Align(
@@ -88,7 +89,7 @@ class _CancelScreenState extends State<CancelScreen> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Image.asset(
-                              'assets/images/chat_icon.png', // apne image ka path yahan den
+                              'assets/images/chat_icon.png',
                               height: 150,
                             ),
                             const SizedBox(height: 16),
@@ -104,7 +105,7 @@ class _CancelScreenState extends State<CancelScreen> {
                             const Text(
                               "Wir werden Sie informieren, sobald es etwas Neues gibt.",
                               style: TextStyle(
-                                fontFamily: 'Inter', // Make sure Inter font is added in pubspec.yaml
+                                fontFamily: 'Inter',
                                 fontSize: 12,
                                 color: Color(0xff797979),
                                 fontWeight: FontWeight.w500,

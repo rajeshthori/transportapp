@@ -66,6 +66,7 @@ class _EndedScreenState extends State<EndedScreen> {
             padding: const EdgeInsets.only(top: 16),
             child: Column(
               children: [
+                SizedBox(height: 15,),
                 Padding(
                   padding: EdgeInsets.all(25),
                   child: Align(
